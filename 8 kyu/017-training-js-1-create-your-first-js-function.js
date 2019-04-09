@@ -42,8 +42,7 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.
 ============================== */
 
-function animal({color,name,legs}){
-    return `This ${color} ${name} has ${legs} legs.`;
-  }
-  
-  
+function helloWorld() {
+  var str = "Hello World!";
+  console.log(str);
+}
