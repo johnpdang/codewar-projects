@@ -31,27 +31,27 @@ In the end, click "Submit" to submit your code pass this kata.
 ============================== */
 
 function getLength(arr) {
-    //return length of arr
-    return arr.length;
-  }
-  function getFirst(arr) {
-    //return the first element of arr
-    return arr[0];
-  }
-  function getLast(arr) {
-    //return the last element of arr
-    return arr.length;
-  }
-//   function pushElement(arr) {
-//   //   var el = 1;
-//   //   return arr.push(el);
-//         arr.concat(0);
-//   }
-  const pushElement = array => array.concat(0)
-  
-  // function popElement(arr) {
-  //   //pop an element from arr
-  //   return arr.pop();
-  // }
-  
-  const popElement = array => array.splice(0, array.length - 1)
+  //return length of arr
+  return arr.length;
+}
+function getFirst(arr) {
+  //return the first element of arr
+  return arr[0];
+}
+function getLast(arr) {
+  //return the last element of arr
+  return arr.length;
+}
+function pushElement(arr) {
+  var el = 1;
+  arr.push(el);
+  return arr;
+}
+
+function popElement(arr) {
+  //pop an element from arr
+  arr.pop();
+  return arr;
+}
+
+// const popElement = array => array.splice(0, array.length - 1);

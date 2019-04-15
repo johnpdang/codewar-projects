@@ -27,9 +27,9 @@ In the end, click "Submit" to submit your code pass this kata.
 ============================== */
 
 function trueOrFalse(val) {
-  if (true) {
-    return;
+  if (val) {
+    return 'true';
   } else {
-    return;
+    return 'false';
   }
 }
