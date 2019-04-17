@@ -74,7 +74,7 @@ In the end, click "Submit" to submit your code pass this kata.
 
 function howManydays(month) {
   var days;
-  switch (days) {
+  switch (month) {
     case 1:
     case 3:
     case 5:
