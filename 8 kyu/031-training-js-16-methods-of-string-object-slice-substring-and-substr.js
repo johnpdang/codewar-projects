@@ -104,7 +104,7 @@ cutIt(["codewars","javascript","java"]) should return ["code","java","java"]
 ```
 ============================== */
 
-function howManySmaller(arr,n){
-  //coding here..
-  
-}
+function cutIt(arr){
+    //coding here...
+    
+  }
