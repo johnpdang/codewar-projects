@@ -81,5 +81,14 @@ You should use ```for..in``` in your code, otherwise, your solution may not pass
 ============================== */
 
 function giveMeFive(obj) {
-  //coding here
+  const five = [];
+
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      if (key.length === 5) five.push(key);
+      if (obj[key].length === 5) five.push(obj[key]);
+    }
+  }
+
+  return five;
 }

@@ -50,11 +50,16 @@ I've defined two array ```odd``` and ```even``` in the function, and also wrote 
 
 If you forgot how to push an element to array, please refer to [lesson 4](http://www.codewars.com/kata/571effabb625ed9b0600107a).
 ============================== */
-function pickIt(arr){
-    var odd=[],even=[];
-    for(i=0; i < arr.length; i++) {
 
-    }   
-    // return [odd,even];
-    return [arr.filter(num => num %2 !==-0), arr.filter(num => num % 2 === 0)]
+function pickIt(arr) {
+  var odd = [], even = [];
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 1) {
+      odd.push(arr[i]);
+    } else {
+      even.push(arr[i]);
+    }
   }
+  return [odd, even];
+}
+  // return [arr.filter(num => num %2 !==-0), arr.filter(num => num % 2 === 0)]

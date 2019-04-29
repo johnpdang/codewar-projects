@@ -40,7 +40,7 @@ function getFirst(arr) {
 }
 function getLast(arr) {
   //return the last element of arr
-  return arr.length;
+  return arr[arr.length-1];
 }
 function pushElement(arr) {
   var el = 1;
@@ -53,5 +53,3 @@ function popElement(arr) {
   arr.pop();
   return arr;
 }
-
-// const popElement = array => array.splice(0, array.length - 1);
