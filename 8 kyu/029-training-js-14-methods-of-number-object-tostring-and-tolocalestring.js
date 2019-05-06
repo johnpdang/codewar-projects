@@ -51,7 +51,11 @@ colorOf(1, 2 ,3) should return "#010203"
 That's all of your work. My work is print your color code on your screen.
 ============================== */
 
-function colorOf(r,g,b){
-  //coding here
-  
+function colorOf(r, g, b) {
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+function toHex(n) {
+  let result = n.toString(16);
+  return result.length == 1 ? "0" + result : result;
 }
