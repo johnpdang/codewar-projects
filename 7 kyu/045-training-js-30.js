@@ -5,5 +5,5 @@ https://www.codewars.com/kata/training-js-number-30-methods-of-arrayobject-reduc
 
 function tailAndHead(arr){
   //coding here...
-  
+
 }
