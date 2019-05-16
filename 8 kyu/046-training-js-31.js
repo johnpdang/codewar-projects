@@ -5,6 +5,6 @@ https://www.codewars.com/kata/training-js-number-31-methods-of-arrayobject-isarr
 
 function blackAndWhite(arr){
   return        !Array.isArray(arr)?"It's a fake array":
-  arr.includes(5)&&arr.includes(13)?"It's a black array":"It's a white array"
+  arr.indexOf(5)&&arr.indexOf(13)?"It's a black array":"It's a white array"
 
 }
